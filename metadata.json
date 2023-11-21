@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "sanjay.kr.on@gmail.com",
+                "Name": "Sanjay Kumar Mandal"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A plasma 6 port of panel transparency button",
+        "Icon": "image-red-eye",
+        "Id": "org.kde.transparencySwitch",
+        "Name": "Transparency Toggle",
+        "Version": "18",
+        "Website": "" ,
+        "Type" : "Service" ,
+        "X-KDE-PluginInfo-License" : "GPL2" ,
+        "Comment" : "an applet to enable/disable transparency for plasma 6 panels" ,
+        "Encoding" : "UTF-8"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "KPackageStructure": "Plasma/Applet"
+}
