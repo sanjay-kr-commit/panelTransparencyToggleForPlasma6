@@ -60,7 +60,7 @@ PlasmoidItem {
         readonly property int maxStep:4
 
         onTriggered: {
-            console.log("enabling transparency mode")
+            console.log("enabling transparency mode attempt : " + (step+1) )
             root.toggleTransparency()
             if ( root.containmentItem == null && step<maxStep ) {
                 step = step + 1;
